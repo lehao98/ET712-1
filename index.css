@@ -1,0 +1,47 @@
+/* external css, you must have the link tag for connecting to html file from css file*/
+.b{
+border:solid black 2px;
+height:255px;
+background-color:aqua;
+}
+/* .b is for div in line 46 in html file*/
+  
+.d{
+color:white;
+padding:50px;
+margin: 50px;
+margin-top:50px;
+text-align: center;
+border:white 2px dotted;
+background-color: rgb(36, 36, 15) ;
+}
+/*.d is for div in line 50 in html file*/
+/*padding and margin are used for orginizing the position is side of the border.*/
+nav{ 
+text-align: center;
+border:purple solid 2px;
+background-color:black; 
+}
+/*we can use tag as a title of the value.*/
+a{
+  color:yellow;
+  text-decoration: none; /*cancel the underline of the a link*/
+
+}
+/*a is the hyberlink or a button.*/
+a:hover{
+color:white;
+border:white solid 2px;
+} 
+/*hover is reflection of the link when you click on it.*/
+.c{ 
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 35%;
+}
+.c:hover{
+  background-color:yellow;
+  border-radius:130px 130px;
+  /*radius is the border corner, must have two PXs, one for left side one for right side*/
+}

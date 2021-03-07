@@ -1,12 +1,71 @@
-<!--sadadada!-->
+<!--DOCTYPE html is the declaration.but not a tag, just an information to browser about what document it is.
+-->
+<!DOCTYPE html>
+
+<!--first tag in html, and it must be.-->
 <html>
+
+  <!--second important tag, this element is a contain for data for data that is placed between html and body -->
 <head>
-  
+  <!-- inside head tag, we can use tags like title,title is the title name of the current website.-->
   <title>HTML_CSS_JS.documentation </title>
+
+<!--link, is the to connect to the source from css, file-->
+<link rel="stylesheet" href="index.css">
+
+<!--script,same thing as the link tag but only can connect to the script file fromscript tag.-->
+<script src="index.js"></script> 
+<!--src means source of the URL-->
+
+<style>
+body{
+  background-color:#FEFCFF;
+}
+.a{
+  color:blue;
+}
+#jason{
+  color:skyblue;
+  text-align:center;
+  }
+</style>
+<!-- style is the tag that used for styling or modifying the elements inside of the HTML file,also, you can use style inside of the tag as well examples above and below-->
 </head>
-<!--this is end of the head of the beginning of the boyd, there should be nothing in between this two tags -->
+<!--this is end of the head of the beginning of the body, the forward slash means closing the tag. which the tag inside the head is all included. -->
 
+<!--body tag is used for containing all of the contents of html, you can use like: div, h# p, a, u, table, ol ul(AKA list ),hyberlinks, etc. examples show below.  -->
 <body>
+  <!--h# tag is meant fontsize of the heading, from h6 to h1, h1 is the biggest size-->
+<h1 class="a" style="text-align:center;">Jason Ruan's Project</h1> <!--style in the tag--> 
+<!--class is used for a specific charactor, you can name it ,l letter or a word, no numberss. whatever you want. sine you give it a name. in css.-->
+<h4 id="jason">ET712</h4><!--id is also the same thing as class above, but the difference is the #, when you use class, in css , you have to use (.)before name. in id, you only use #-->
+<br><!--new line-->
+<hr> <!--horizion line-->
+<!--external css-->
+<!-- div is the selector of the html, it uses for containing the tags inside of the div-->
+<div class="b">
+  <!--first div-->
 
+<h1 class="d">Welcome to Jason Ruan's Website!</h1> <!--h1 in second div-->
+
+
+</div>
+<!--closing div tag-->
+<hr>
+<nav> 
+  <!--The nav element defines a set of navigation links, basically it places the the element in a row.-->
+  <a href="https://www.w3schools.com/html/default.asp">html</a> |
+  <a href="">css</a> |
+  <a href="">boostrap</a> |
+  <a href="">javascript</a> |
+  <a href="">typescript</a> 
+  <!--a tag is used for cyberlink, it is used for referencing 
+  to other websites or the html files.-->
+</nav>
+<hr>
+<a  href="http://google.com/"> <img class="c" src="google.png" alt="">
+
+</a>
+<hr>
 </body>
 </html>
