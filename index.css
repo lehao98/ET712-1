@@ -17,7 +17,7 @@ background-color: rgb(36, 36, 15) ;
 }
 /*.d is for div in line 50 in html file*/
 /*padding and margin are used for orginizing the position is side of the border.*/
-nav{ 
+.nav{ 
 text-align: center;
 border:purple solid 2px;
 background-color:black; 
@@ -42,6 +42,65 @@ width: 35%;
 }
 .c:hover{
   background-color:yellow;
-  border-radius:130px 130px;
+  border-radius:300px 300px;
   /*radius is the border corner, must have two PXs, one for left side one for right side*/
 }
+
+
+table, th, td{width: 700px}
+th {text-align:center;}
+td{text-align:center;}
+
+table, th, td{border:2px solid black}
+th,td{padding:6px}
+table{background-color:yellow;}
+th{background-color:lightyellow;}
+tr{background-color:lightpink;}
+
+.e{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 35%;
+}
+.f{
+  background-color: black;
+  color:white;}
+
+  .g{
+  background-color:white;
+    border: 1px solid black;
+    color: green;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 25px;
+
+}
+
+.g:hover{
+
+  background-color: green;
+  color: white;
+  font-size-adjust: auto;
+  border-radius: 25px;
+}
+
+form{
+  border:inset 2px black;
+  margin:25%;
+  padding:50px;
+  color:black;
+  align-content: center;
+  text-align:center;
+  background-color:lightyellow; 
+}
+.att{
+  border:solid black 2px;
+  margin:5%;
+  padding:1px;
+  color:black;
+  align-self: center;
+  }

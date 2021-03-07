@@ -14,12 +14,17 @@
 <link rel="stylesheet" href="index.css">
 
 <!--script,same thing as the link tag but only can connect to the script file fromscript tag.-->
-<script src="index.js"></script> 
-<!--src means source of the URL-->
+<script src="index.js">
+  
+  
+  
+  
+  </script> 
+<!--src means source of the URL, you can type javascript code in HTML file.-->
 
 <style>
 body{
-  background-color:#FEFCFF;
+  background-color:Gray;
 }
 .a{
   color:blue;
@@ -27,6 +32,7 @@ body{
 #jason{
   color:skyblue;
   text-align:center;
+  /*from the id */
   }
 </style>
 <!-- style is the tag that used for styling or modifying the elements inside of the HTML file,also, you can use style inside of the tag as well examples above and below-->
@@ -38,7 +44,8 @@ body{
   <!--h# tag is meant fontsize of the heading, from h6 to h1, h1 is the biggest size-->
 <h1 class="a" style="text-align:center;">Jason Ruan's Project</h1> <!--style in the tag--> 
 <!--class is used for a specific charactor, you can name it ,l letter or a word, no numberss. whatever you want. sine you give it a name. in css.-->
-<h4 id="jason">ET712</h4><!--id is also the same thing as class above, but the difference is the #, when you use class, in css , you have to use (.)before name. in id, you only use #-->
+<h4 id="jason">ET712</h4><!--id is also the same thing as class above, but the difference is the #, when you use class, in css , you have to use (.)before name. in id, you only use #, also you cab use it in js file by connecting the file-->
+<h5 style="text-align:center;"><strong style="color:black;">Author:<u style="color:green;">Lehao Ruan</u></strong></h5><!--you can consistenly put tags as many as you want-->
 <br><!--new line-->
 <hr> <!--horizion line-->
 <!--external css-->
@@ -52,7 +59,7 @@ body{
 </div>
 <!--closing div tag-->
 <hr>
-<nav> 
+<nav class="nav"> 
   <!--The nav element defines a set of navigation links, basically it places the the element in a row.-->
   <a href="https://www.w3schools.com/html/default.asp">html</a> |
   <a href="">css</a> |
@@ -64,8 +71,100 @@ body{
 </nav>
 <hr>
 <a  href="http://google.com/"> <img class="c" src="google.png" alt="">
-
+<!--You can also put the image inside of the A tag, the image would be come a button image that is clickable.-->
 </a>
 <hr>
+ <table class="e">
+<!--table is the  thing that can arrange data in a row or column. the elements in table are basicially tr th td tbody, thead etc--> 
+    <tr> <!--it can define the row, table-row-->
+      <th >My favorite HTML tags </th>
+      <th>My favorite CSS codes</th>
+      <th>My favorite Programming Languages</th>
+<!--th is the header, like topics on the very top header-->
+    </tr>
+    <td >div</td>
+    <td >background-color</td>
+    <td>C++</td>
+    <!--td is the data for each header under the headers-->
+
+    <tr>
+      <td>nav</td>
+      <td>margin/padding</td>
+      <td>Python</td>
+
+    </tr>
+    <tr>
+      <td>audio</td>
+      <td>border</td>
+      <td >HTML</td>
+
+    </tr>
+  </table> 
+  <hr>
+
+  <div class="f">
+  <ol start="1"> <!--ol means ordered list, 
+ it can used for numerical or alphabetical.-->
+
+ <!--start means starting from which number-->
+  <li>Python</li>
+  <li>C++</li>
+  <li>JavaScript</li>
+  <!--li means listing the item-->
+</ol>
+
+<ol type="I" start="1">
+  <li>Python</li>
+  <li>C++</li>
+  <li>JavaScript</li>
+  <!--type means which type of sybmols you want to list by numbers-->
+</ol>
+<ul style="list-style-type:square;">
+  <!--ul is unordered list, no  numerical or alphabetical.-->
+ 
+   <li>Python</li>
+  <li>C++</li>
+  <li>JavaScript</li>
+ </ul>
+<ul>
+   <li>Python</li>
+  <li>C++</li>
+  <li>JavaScript</li>
+ </ul>
+ <ul style="list-style-type:none;">
+    <!--list_style_type means you can make any shapes you want or no shape-->
+   <li>Python</li>
+  <li>C++</li>
+  <li>JavaScript</li>
+ </ul>
+ </div>
+<hr>
+<button class="g" onclick="j()" type="button" name="button"><h2>Click me..</h2></button>
+<p id="j"></p>
+
+<button  onclick="study()" class="g" type="button" name="button"><h2> Cheatsheet </h2></a>  </button>
+<hr>
+<form name="futureInput">
+First Name:<input class="att" name="in1"><br>
+Last Name:<input class="att" name="in2"><br>
+<input class="at" type="button" value="Submit" onclick="futr()">
+</form>
+<hr>
+<script type="text/javascript">
+var a="Jason";
+var b="Ruan";
+
+var e="My first name is " + a + " and my last name is " + b + ".";
+console.log(e);
+document.write(e);
+document.write(" <br> <a class='aa' href='../home.html'>Home</a> ")
+</script>
+<hr>
+<nav style="text-align:center;background-color:white;">
+<p>Jason Ruan | 3/7/21 | ET712</p> 
+<p>Thank You For Viewing My Project!</p>
+<img src="xjj.png" alt="">
+<hr>
+</nav>
 </body>
 </html>
